@@ -1,5 +1,4 @@
 Paddle myPaddle1;
-Paddle myPaddle2;
 float x = 300;
 float y = 200;
 float xspeed = 1;

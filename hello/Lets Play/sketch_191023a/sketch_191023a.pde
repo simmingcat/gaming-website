@@ -5,7 +5,7 @@ void setup(){
 }
 
 void draw(){
+  background(#ff66cc);
   charater();
-  background();
 
 }

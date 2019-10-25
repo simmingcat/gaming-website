@@ -1,11 +1,14 @@
 
 void setup(){
- fullScreen();
- charaterSetup();  
+ size(1280, 640);
+ backgroundd();
+ charaterSetup(); 
+ monsterSetup();
 }
 
 void draw(){
-  background(#ff66cc);
+  backgroundDraw();
   charater();
+  monsterDraw();
 
 }

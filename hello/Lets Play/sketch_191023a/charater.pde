@@ -1,4 +1,4 @@
-Paddle myPaddle1;
+Paddle myCharater1;
 float x = 300;
 float y = 200;
 float xspeed = 1;
@@ -7,7 +7,7 @@ float paddleSpeed = 3;
 
 
 void charaterSetup() {
-myPaddle1 = new Paddle(color(255), 500, 500, 500);
+myCharater1 = new Paddle(color(255), 50, 490, 50);
   
   
 }
@@ -21,7 +21,7 @@ void charater () {
   fill(0, 255, 40);
   
   
-  myPaddle1.display();
+  myCharater1.display();
 
 }
 
@@ -46,8 +46,8 @@ class Paddle {
 }
  
 void keyPressed() {
-  if (key == 'w')      { myPaddle1.ypaddle -= paddleSpeed; }
-  if (key == 's')      { myPaddle1.ypaddle += paddleSpeed; }
-  if (key == 'a')   { myPaddle1.xpaddle -= paddleSpeed; }
-  if (key == 'd') { myPaddle1.xpaddle += paddleSpeed; }
-}
+  if (key == 'w')  { myCharater1.ypaddle -= paddleSpeed; }
+  if (key == 's')  { myCharater1.ypaddle += paddleSpeed; }
+  if (key == 'a')  { myCharater1.xpaddle -= paddleSpeed; }
+  if (key == 'd')  { myCharater1.xpaddle += paddleSpeed; }
+  }

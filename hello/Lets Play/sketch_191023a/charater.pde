@@ -1,4 +1,4 @@
-Paddle myCharater1;
+Charater myCharater1;
 float x = 300;
 float y = 200;
 float xspeed = 1;
@@ -7,7 +7,7 @@ float paddleSpeed = 3;
 
 
 void charaterSetup() {
-myCharater1 = new Paddle(color(255), 50, 490, 50);
+myCharater1 = new Charater(color(255), 50, 490, 50);
   
   
 }
@@ -25,13 +25,13 @@ void charater () {
 
 }
 
-class Paddle {
+class Charater {
   color c;
   float xpaddle;
   float ypaddle;
   float pspeed;
  
-  Paddle(color tempC, float xpos, float ypos, float padspeed) {
+  Charater(color tempC, float xpos, float ypos, float padspeed) {
     c = tempC;
     xpaddle = xpos;
     ypaddle = ypos;

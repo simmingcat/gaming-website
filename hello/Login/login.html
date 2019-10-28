@@ -64,6 +64,14 @@ body {
   color: white;
 }
 
+.dot {
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .main {
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
@@ -107,6 +115,17 @@ body {
   			color: #ffffff;
   		}
 
+      .login-form input[type="SignUp"]{
+        width: 100%;
+        padding: 15px;
+        background-color: #b3b3b3 ;
+        border: 0;
+        box-sizing: border-box;
+        cursor: pointer;
+        font-weight: bold;
+        color: #ffffff;
+      }
+
 }
 </style>
 <script src=""></script>
@@ -114,6 +133,7 @@ body {
 <body>
 
 <div class="header">
+  <img class="dot" src="logo.png"/>
   <h1>Lets Play</h1>
   <h4>website created by Athena Chow<h4>
 </div>
@@ -123,25 +143,33 @@ body {
   <a href="file://fs-052/studuser$/Gr11/a.chow11/My%20Documents/GitHub/gaming-website/hello/Lets%20Play/LetsPlay.html" target="_blank">Lets Play</a>
   <a href="" target="_blank">Store</a>
   <a href="" target="_blank">Gallary</a>
+
   <a href="#" class="right">About</a>
+    <a href="" class="right">Signup</a>
+      <a href="" class="right">Login</a>
 </div>
 
 <div class="login-form">
-    <h1>Login Form</h1>
+    <h1>Login</h1>
     <form action="auth" method="POST">
       <input type="text" name="username" placeholder="Username" required>
       <input type="password" name="password" placeholder="Password" required>
       <input type="submit">
+      <h1>or<h1>
+      <input type="SignUp">
+
     </form>
   </div>
 
 <br><br><br>
 
 <div class="footer">
+  <blockquote cite="http://thilllogistics.com/carries-blog/what-i-learned-about-social-media-from-star-wars/attachment/star-wars-1/"<!-- Date Accessed:20191027 --!>
+    <p><strong>"uuuuuuuuur Ahhhurrrrrr uhrrr Ahhhurrrrr Aaaarhg..."</strong><em><a href="http://thilllogistics.com/carries-blog/what-i-learned-about-social-media-from-star-wars/attachment/star-wars-1/" target="_blank">-Chewbacca</a></em></p>
   <p>Are you up to the challenge.<p>
     <p>&copy Athena Chow, power by Simmingcat in GitHub</p>
-
 </div>
+
 
 <script src="Login\login.js"></script>
 

@@ -1,5 +1,0 @@
-void monsterSetup(){
-}
-
-void monsterDraw(){
-}

@@ -13,7 +13,7 @@
   }
   
  void initScreen() {
-  background(0);
+  background(bg);
   textAlign(CENTER);
   text("Click to start", height/2, width/2);
 } 

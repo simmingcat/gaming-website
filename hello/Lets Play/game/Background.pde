@@ -5,5 +5,7 @@
   }
   
   void backgroundDraw(){
+    initScreen();
+    gameScreen();
     background(bg);
   }

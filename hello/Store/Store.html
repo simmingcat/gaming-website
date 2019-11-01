@@ -70,19 +70,40 @@ body {
   background-color: white;
   padding: 20px;
 }
-/* Fake image, just for this example */
-.game {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
 
 .footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
   }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
 
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .card button:hover {
+    opacity: 0.7;
+  }
 }
 </style>
 <script src=""></script>
@@ -103,6 +124,14 @@ body {
   <a href="file://fs-052/studuser$/Gr11/a.chow11/My%20Documents/GitHub/gaming-website/hello/about/about.html" class="right">About</a>
     <a href="file://fs-052/studuser$/Gr11/a.chow11/My%20Documents/GitHub/gaming-website/hello/system/SignUp.html" class="right">Signup</a>
       <a href="file://fs-052/studuser$/Gr11/a.chow11/My%20Documents/GitHub/gaming-website/hello/system/login.html" class="right">Login</a>
+</div>
+
+<div class="card">
+  <img src="" alt="" style="width:100%">
+  <h1>5 Coins</h1>
+  <p class="price">$0.99</p>
+  <p>Some text about the jeans..</p>
+  <p><button>Add to Cart</button></p>
 </div>
 
 

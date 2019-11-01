@@ -48,8 +48,7 @@ void wallHandler() {
 
   void watchWallCollision(int index) {
 
-      int[] wall = walls.get(index);
-    // get gap wall settings 
+    int[] wall = walls.get(index);
     int gapWallX = wall[0];
     int gapWallY = wall[1];
     int gapWallWidth = wall[2];
@@ -62,11 +61,11 @@ void wallHandler() {
     int wallBottomY = gapWallY+gapWallHeight;
     int wallBottomWidth = gapWallWidth;
     int wallBottomHeight = height-(gapWallY+gapWallHeight);
-    int wallScored = wall[4];
+    int wallScored = wall[3];
      
       if (ballX > gapWallX+(gapWallWidth/2) && wallScored==0) {
       wallScored=1;
-      wall[4]=1;
+      wall[3]=1;
        score();
       
        if (

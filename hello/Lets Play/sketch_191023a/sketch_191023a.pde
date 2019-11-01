@@ -7,7 +7,7 @@ int ballColor = color(0);
 int racketBounceRate = 20;
 
 float gravity = 1;
-float ballSpeedVert = 0;
+float ballSpeedVert = 15;
 
 float airfriction = 0.0001;
 float friction = 0.1;
